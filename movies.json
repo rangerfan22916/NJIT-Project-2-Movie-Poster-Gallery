@@ -1,0 +1,201 @@
+[
+  {
+    "title": "Top Gun",
+    "iscore": 8.3,
+    "rating": "PG",
+    "runtime": 110,
+    "released": [1986, 5, 16],
+    "country": "USA",
+    "posters": ["img/TopGun1.jpg", "img/TopGun2.jpg", "img/topgun3.jpg"],
+    "imdb": "http://www.imdb.com/title/tt0092099",
+    "website": "http://www.topgunmovie.com",
+    "likes": 450,
+    "dislikes": 23,
+    "posterindex": 0,
+    "cast": [
+      "Tom Cruise",
+      "Kelly McGillis",
+      "Val Kilmer",
+      "Anthony Edwards",
+      "Tom Skerritt",
+      "Michael Ironside"
+    ]
+  },
+  {
+  "title": "Top Gun: Maverick",
+  "iscore": 8.5,
+  "rating": "PG-13",
+  "runtime": 131,
+  "released": [2022, 5, 27],
+  "country": "USA",
+  "posters": ["img/maverick1.jpg","img/maverick2.jpg","img/maverick3.jpg","img/maverick4.jpg"],
+  "imdb": "http://www.imdb.com/title/tt1745960",
+  "website": "http://www.topgunmaverick.com",
+  "likes": 500,
+  "dislikes": 15,
+  "posterindex": 0,
+  "cast": [
+    "Tom Cruise",
+    "Jennifer Connelly",
+    "Miles Teller",
+    "Jon Hamm",
+    "Glen Powell",
+    "Lewis Pullman",
+    "Val Kilmer"
+  ]
+},
+
+  {
+    "title": "Godfather",
+    "iscore": 9.2,
+    "rating": "R",
+    "runtime": 175,
+    "released": [1972, 3, 24],
+    "country": "USA",
+    "posters": ["img/godfather1.jpg", "img/GodFather2.jpeg"],
+    "imdb": "http://www.imdb.com/title/tt0068646",
+    "website": "http://www.godfather.com",
+    "likes": 900,
+    "dislikes": 100,
+    "posterindex": 0,
+    "cast": [
+      "Marlon Brando",
+      "Al Pacino",
+      "James Caan",
+      "Robert Duvall",
+      "Diane Keaton",
+      "Talia Shire"
+    ]
+  },
+  {
+    "title": "Godfather pt 2",
+    "iscore": 9.0,
+    "rating": "R",
+    "runtime": 202,
+    "released": [1974, 12, 20],
+    "country": "USA",
+    "posters": ["img/godfather2.jpg", "img/godfather2_2.jpg", "img/godfather2_3.jpg"],
+    "imdb": "http://www.imdb.com/title/tt0071562",
+    "website": "http://www.godfather.com",
+    "likes": 850,
+    "dislikes": 90,
+    "posterindex": 0,
+    "cast": [
+      "Al Pacino",
+      "Robert De Niro",
+      "Robert Duvall",
+      "Diane Keaton",
+      "Talia Shire",
+      "Lee Strasberg"
+    ]
+  },
+  {
+    "title": "Shawshank Redemption",
+    "iscore": 9.3,
+    "rating": "R",
+    "runtime": 142,
+    "released": [1994, 10, 14],
+    "country": "USA",
+    "posters": ["img/shawshank.jpg", "img/shawshank2.jpg", "img/shawshank3.jpg"],
+    "imdb": "http://www.imdb.com/title/tt0111161",
+    "website": "https://www.facebook.com/ShawshankRedemptionFilm",
+    "likes": 1020,
+    "dislikes": 120,
+    "posterindex": 0,
+    "cast": [
+      "Tim Robbins",
+      "Morgan Freeman",
+      "Bob Gunton",
+      "William Sadler",
+      "Clancy Brown",
+      "Gil Bellows"
+    ]
+  },
+  {
+    "title": "Forrest Gump",
+    "iscore": 8.8,
+    "rating": "PG-13",
+    "runtime": 142,
+    "released": [1994, 7, 6],
+    "country": "USA",
+    "posters": ["img/forrest1.jpg", "img/forrest2.jpg", "img/forrest3.jpg", "img/forrest4.jpg"],
+    "imdb": "http://www.imdb.com/title/tt0109830",
+    "website": "http://www.forrestgumpmovie.com",
+    "likes": 980,
+    "dislikes": 80,
+    "posterindex": 0,
+    "cast": [
+      "Tom Hanks",
+      "Robin Wright",
+      "Gary Sinise",
+      "Mykelti Williamson",
+      "Sally Field"
+    ]
+  },
+  {
+    "title": "Muppets Most Wanted",
+    "iscore": 6.4,
+    "rating": "PG",
+    "runtime": 112,
+    "released": [2014, 3, 21],
+    "country": "USA",
+    "posters": ["img/muppets1.jpg", "img/muppets2.jpg", "img/muppets4.jpg"],
+    "imdb": "http://www.imdb.com/title/tt2112124",
+    "website": "http://www.muppetsmostwanted.com",
+    "likes": 400,
+    "dislikes": 30,
+    "posterindex": 0,
+    "cast": [
+      "Ricky Gervais",
+      "Ty Burrell",
+      "Tina Fey",
+      "Steve Whitmire",
+      "Eric Jacobson",
+      "Dave Goelz"
+    ]
+  },
+  {
+    "title": "Wolf of Wall Street",
+    "iscore": 8.2,
+    "rating": "R",
+    "runtime": 180,
+    "released": [2013, 12, 25],
+    "country": "USA",
+    "posters": ["img/wolf1.jpg", "img/wolf2.jpg", "img/wolf3.jpg"],
+    "imdb": "http://www.imdb.com/title/tt0993846",
+    "website": "http://www.wolfofwallstreet.com",
+    "likes": 850,
+    "dislikes": 100,
+    "posterindex": 0,
+    "cast": [
+      "Leonardo DiCaprio",
+      "Jonah Hill",
+      "Margot Robbie",
+      "Matthew McConaughey",
+      "Kyle Chandler",
+      "Rob Reiner"
+    ]
+  },
+  {
+    "title": "Toy Story 3",
+    "iscore": 8.3,
+    "rating": "G",
+    "runtime": 103,
+    "released": [2010, 6, 18],
+    "country": "USA",
+    "posters": ["img/toystory1.jpg", "img/toystory2.jpg", "img/toystory3.jpg"],
+    "imdb": "https://www.imdb.com/title/tt0435761",
+    "website": "https://www.pixar.com/feature-films/toy-story-3",
+    "likes": 910,
+    "dislikes": 75,
+    "posterindex": 0,
+    "cast": [
+      "Tom Hanks",
+      "Tim Allen",
+      "Joan Cusack",
+      "Don Rickles",
+      "Wallace Shawn",
+      "Michael Keaton"
+    ]
+  }
+]

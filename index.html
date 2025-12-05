@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Drew's Top 8 Movies</title>
+<link rel="stylesheet" href="style.css"/>
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+
+<div id="vue_app" class="container">
+
+    <div class="site-header">
+        <h1 id="app_title">{{ title }}</h1>
+        <a id="github" :href="github" target="_blank">
+            <i class="bi bi-github"></i> {{ owner }}
+        </a>
+    </div>
+
+    <div class="gallery">
+        <div class="movie" v-for="(movie,index) in movies" :key="index">
+            <div class="poster-wrap">
+                <img class="poster" :src="movie.posters[movie.posterindex]" @click="posterClick(index)" />
+                <div class="image-info">Poster {{ movie.posterindex + 1 }} of {{ movie.posters.length }}</div>
+                <div class="score"><i class="bi bi-star"></i> {{ movie.iscore }}</div>
+            </div>
+            <div class="movie-info">
+                <p class="movie-title">{{ movie.title }} ({{ movie.country }})</p>
+                <p class="runtime">Runtime: {{ timeText(movie.runtime) }}</p>
+                <p class="released">Released: {{ getMonthText(movie.released) }} | Rated: {{ movie.rating }}</p>
+                <p class="websites">Websites: <a :href="movie.imdb" target="_blank">IMDB</a> | <a :href="movie.website" target="_blank">Official</a></p>
+                
+                <div class="actions" style="position: relative;">
+                    <button class="like" @click="like(index)"><i class="bi bi-hand-thumbs-up"></i> {{ movie.likes }}</button>
+                    <button class="dislike" @click="dislike(index)"><i class="bi bi-hand-thumbs-down"></i> {{ movie.dislikes }}</button>
+                    <button class="cast-btn" @click="toggleCast(index)">Cast</button>
+                    <div class="cast-popup" v-show="movie.showCast">
+                        <button class="close-cast" @click="toggleCast(index)">X</button>
+                        <h4>Cast</h4>
+                        <ul>
+                            <li v-for="(actor,i) in movie.cast" :key="i">{{ actor }}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="site.js"></script>
+</body>
+</html>
